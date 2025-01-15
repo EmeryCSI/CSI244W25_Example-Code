@@ -1,45 +1,46 @@
+console.log("Hello Express");
 console.log("Hello Nodemon");
-console.log("Hot Reload");
-//1. import express
+//We are now ready to use express
 const express = require("express");
 const os = require("os");
 const path = require("path");
-//2. next we create an instance of express - app
+//Call the express constructor to create an app
 const app = express();
 
-//3. Setup middleware (middleware is code that runs on every request)
-app.use(express.json());
-
-//4. define our routes- we use the app object
+//use the app to create endpoints
+//app.reqType(path, callbackfunction)
+//get request = Reading Data (the default request)
 app.get("/", (req, res) => {
-  //This is the function that runs when a get request comes into the root
-  //req contains information from the user, res send information back
-  console.log("Hit the root");
+  //This function will run when a get request comes into the root
+  //req contains information that came from the user
+  //res is how you send things back
+  console.log("Hit root endpoint");
   res.send("Hello from the root");
 });
-//lets try to send some json
+//lets use the os module to show some info about our machine
 app.get("/system", (req, res) => {
-  const sysObject = {
+  const sysObect = {
     platform: os.platform(),
-    freemem: os.freemem(),
+    freemom: os.freemem(),
     release: os.release(),
     arch: os.arch(),
   };
-  res.json(sysObject);
+  res.send(sysObect);
 });
-//sendfile()
-app.get("/index", (req, res) => {
-  console.log(__dirname);
-  res.sendFile(path.join(__dirname, "html", "index.html"));
-});
-//the query object inside of request and contains information passed in the url (querystring)
 app.get("/query", (req, res) => {
-  //you can destructure query object
-  const { fname, lname, phone } = req.query;
-  console.log(`Phone is ${phone}`);
-  res.json(req.query);
+  //If the user passes you any data in the url (query paramaters)
+  //they will be in the req.query object
+  console.log(req.query);
+  const { firstName, lastName, phone } = req.query;
+  res.send(
+    `Your first name is ${firstName}, lastname: ${lastName}, phone: ${phone}`
+  );
 });
-//5. listen on port
+app.get("/index", (req, res) => {
+  //sendFile(path of the file to send)
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+//listen on a port
 app.listen(5001, () => {
-  console.log(`Server started on port 5001`);
+  console.log(`Server started on http://localhost:5001`);
 });

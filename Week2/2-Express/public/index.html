@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+  </head>
+  <body>
+    <h1>This is the index page</h1>
+    <a href="/system">Go to system</a>
+    <a href="/query?firstName=Josh&lastName=Emery&phone=1234567890"
+      >Go to query page</a
+    >
+    <form action="/query">
+      <div>
+        <label for="">First Name: </label>
+        <input type="text" name="firstName" />
+      </div>
+      <div>
+        <label for="">Last Name: </label>
+        <input type="text" name="lastName" />
+      </div>
+      <div>
+        <label for="">Phone Number: </label>
+        <input type="text" name="phone" />
+      </div>
+      <input type="submit" value="Submit Form" />
+    </form>
+  </body>
+</html>
