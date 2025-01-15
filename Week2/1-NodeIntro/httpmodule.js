@@ -16,9 +16,9 @@ const fs = require("fs");
 const path = require("path");
 const server = http.createServer((req, res) => {
   //we need to read the index.html file
-  fs.readFile(path.join(__dirname, "index.html"), "utf8", (data) => {
-    res.end(data);
-  });
+    fs.readFile(path.join(__dirname, "index.html"), "utf8", (error, data) => {
+      res.end(data);
+    });
   //lets add multiple endpoints
   //if the user goes to /about
   if (req.url === "/about") {
