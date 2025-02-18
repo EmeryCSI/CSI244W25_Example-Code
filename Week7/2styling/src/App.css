@@ -1,0 +1,34 @@
+.my-card {
+  background: navy;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px;
+  box-shadow: 0, 2px, 4px #000;
+}
+
+.card-title {
+  color: darkgray;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: gray;
+  margin-bottom: 15px;
+  line-height: 2;
+}
+
+.card-button {
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: royalblue;
+}
