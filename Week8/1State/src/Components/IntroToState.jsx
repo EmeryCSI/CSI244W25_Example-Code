@@ -1,6 +1,10 @@
 import { useState } from "react";
 
 function IntroToState() {
+  console.log("----Intro to State rendering----");
+  //state variable to store name, starts as empty string
+  const [name, setName] = useState("");
+
   // Initialize state with a random number between 1-100
   // useState returns an array with two elements:
   // 1. The current state value (number)
@@ -31,11 +35,21 @@ function IntroToState() {
     }
     setNumber((prevNumber) => prevNumber - 1);
   };
+  //function that fires when the name input changes
+  //the html event is passed in here
+  const handleNameChange = (event) => {
+    //console.log(event);
+    setName(event.target.value);
+  };
 
   return (
     <div>
-      <h2>Random Number Generator</h2>
       <hr />
+      <h2>Type your name</h2>
+      <input onChange={handleNameChange} type="text" />
+      <h4>Your name is {name}</h4>
+      <hr />
+      <h2>Random Number Generator</h2>
 
       {/* Display the current number from state */}
       <h2>Current Number: {number}</h2>
@@ -54,7 +68,7 @@ function IntroToState() {
       <div className="tutorial-notes">
         <h3>How This Works:</h3>
         <ul>
-          <li>The useState hook manages our number value</li>
+          <li>The useState hook manages our variables</li>
           <li>
             When state changes, React automatically re-renders the component
           </li>
