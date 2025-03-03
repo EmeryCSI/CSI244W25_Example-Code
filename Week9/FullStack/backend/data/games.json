@@ -1,0 +1,249 @@
+[
+  {
+    "id": 1,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "releaseYear": 2017,
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "platforms": [
+      "Nintendo Switch",
+      "Wii U"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Open World"
+    ],
+    "reviewScore": 97,
+    "totalSales": 30.65,
+    "ageRating": "E10+",
+    "multiplayer": false
+  },
+  {
+    "id": 2,
+    "title": "Red Dead Redemption 2",
+    "releaseYear": 2018,
+    "developer": "Rockstar Games",
+    "publisher": "Take-Two Interactive",
+    "platforms": [
+      "PlayStation 4",
+      "Xbox One",
+      "PC"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "Western"
+    ],
+    "reviewScore": 97,
+    "totalSales": 50,
+    "ageRating": "M",
+    "multiplayer": true
+  },
+  {
+    "id": 3,
+    "title": "God of War",
+    "releaseYear": 2018,
+    "developer": "Santa Monica Studio",
+    "publisher": "Sony Interactive Entertainment",
+    "platforms": [
+      "PlayStation 4",
+      "PC"
+    ],
+    "genre": [
+      "Action-Adventure",
+      "RPG"
+    ],
+    "reviewScore": 94,
+    "totalSales": 23,
+    "ageRating": "M",
+    "multiplayer": false
+  },
+  {
+    "id": 4,
+    "title": "Elden Ring",
+    "releaseYear": 2022,
+    "developer": "FromSoftware",
+    "publisher": "Bandai Namco",
+    "platforms": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "PC"
+    ],
+    "genre": [
+      "Action RPG",
+      "Open World"
+    ],
+    "reviewScore": 96,
+    "totalSales": 20.5,
+    "ageRating": "M",
+    "multiplayer": true
+  },
+  {
+    "id": 5,
+    "title": "Super Mario Odyssey",
+    "releaseYear": 2017,
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "platforms": [
+      "Nintendo Switch"
+    ],
+    "genre": [
+      "Platform",
+      "3D"
+    ],
+    "reviewScore": 97,
+    "totalSales": 25.37,
+    "ageRating": "E10+",
+    "multiplayer": false
+  },
+  {
+    "id": 6,
+    "title": "Cyberpunk 2077",
+    "releaseYear": 2020,
+    "developer": "CD Projekt Red",
+    "publisher": "CD Projekt",
+    "platforms": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "PC"
+    ],
+    "genre": [
+      "Action RPG",
+      "Open World"
+    ],
+    "reviewScore": 86,
+    "totalSales": 20,
+    "ageRating": "M",
+    "multiplayer": false
+  },
+  {
+    "id": 7,
+    "title": "Hades",
+    "releaseYear": 2020,
+    "developer": "Supergiant Games",
+    "publisher": "Supergiant Games",
+    "platforms": [
+      "Nintendo Switch",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "PC"
+    ],
+    "genre": [
+      "Roguelike",
+      "Action RPG"
+    ],
+    "reviewScore": 93,
+    "totalSales": 3,
+    "ageRating": "T",
+    "multiplayer": false
+  },
+  {
+    "id": 8,
+    "title": "Minecraft",
+    "releaseYear": 2011,
+    "developer": "Mojang Studios",
+    "publisher": "Mojang Studios",
+    "platforms": [
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Nintendo Switch",
+      "Mobile",
+      "Many Others"
+    ],
+    "genre": [
+      "Sandbox",
+      "Survival"
+    ],
+    "reviewScore": 93,
+    "totalSales": 238,
+    "ageRating": "E10+",
+    "multiplayer": true
+  },
+  {
+    "id": 9,
+    "title": "Final Fantasy VII Remake",
+    "releaseYear": 2020,
+    "developer": "Square Enix",
+    "publisher": "Square Enix",
+    "platforms": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "PC"
+    ],
+    "genre": [
+      "Action RPG",
+      "JRPG"
+    ],
+    "reviewScore": 87,
+    "totalSales": 7,
+    "ageRating": "T",
+    "multiplayer": false
+  },
+  {
+    "id": 10,
+    "title": "Among Us",
+    "releaseYear": 2018,
+    "developer": "InnerSloth",
+    "publisher": "InnerSloth",
+    "platforms": [
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Nintendo Switch",
+      "Mobile"
+    ],
+    "genre": [
+      "Party",
+      "Social Deduction"
+    ],
+    "reviewScore": 85,
+    "totalSales": 500,
+    "ageRating": "E10+",
+    "multiplayer": true
+  },
+  {
+    "id": 11,
+    "title": "werer",
+    "releaseYear": 2024,
+    "developer": "wrwer",
+    "publisher": "werwer",
+    "platforms": [
+      "wre"
+    ],
+    "genre": [
+      "wer"
+    ],
+    "reviewScore": 100,
+    "totalSales": 10,
+    "ageRating": "E10+",
+    "multiplayer": true
+  },
+  {
+    "id": 12,
+    "title": "Teting",
+    "releaseYear": 2024,
+    "developer": "Test",
+    "publisher": "test",
+    "reviewScore": 100,
+    "totalSales": 10,
+    "ageRating": "T",
+    "multiplayer": true
+  },
+  {
+    "id": 13,
+    "title": "sdfasdf",
+    "releaseYear": 2025,
+    "developer": "sadfasfd",
+    "publisher": "sadfasf",
+    "reviewScore": 0,
+    "totalSales": 0,
+    "ageRating": "E",
+    "multiplayer": true
+  }
+]
